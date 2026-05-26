@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <script defer src="cadastro.js"></script>
+</head>
+<body>
+    <div id="campos">
+        <form id="forms">
+            <input type="email" id="email" placeholder="exemplo@email.com">
+            <input type="text" id="user" placeholder="enter user">
+            <input type="password" id="senha" placeholder="enter senha">
+            <input type="text" id="cpf" placeholder="enter CPF">
+            <input type="text" id="telefone" placeholder="enter phone">
+
+            <button type="submit" onclick="validarsenha()">Cadastrar</button>
+        </form>
+        <div id="feedback" class="oculto"></div>
+    </div>
+</body>
+</html>
